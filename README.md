@@ -25,3 +25,9 @@ Running the tests:
     * Else:
       * Report Insufficient seats for that contiguous segment
 
+## Roadmap & Future work
+- [x] Implement greedy algorithm for contiguous segment allocation 
+- [x] Implement Unit tests
+- [ ] If reservations can be broken up, then can increase the optimisation by using backtracking solutions by trying all configurations
+- [ ] Take into account customer's seat preference to enhance satisfaction
+
