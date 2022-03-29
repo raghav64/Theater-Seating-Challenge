@@ -57,7 +57,7 @@ def read_input(file_name):
     if not file_check(file_name):
         raise FileNotFoundError('Input reservation file not found')
 
-    with open('input.txt', mode='r') as f:
+    with open(file_name, mode='r') as f:
         input = map(lambda s: int(s.split()[1]), f.read().splitlines())
     return list(input)
 
